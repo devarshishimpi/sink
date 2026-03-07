@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "sink",
+  "name": "go-devarshi-dev",
   "main": ".output/server/index.mjs",
   "assets": {
     "binding": "ASSETS",
@@ -34,15 +34,15 @@
   "kv_namespaces": [
     {
       "binding": "KV",
-      "preview_id": "ef93d42dc4b34969bab404d2e80f8dd3",
-      "id": "ef93d42dc4b34969bab404d2e80f8dd3" // IMPORTANT: Change this to your KV namespace ID
+      "preview_id": "e3bf52771b9e474ebe436aa7216e0a46",
+      "id": "3e07e02cee8b4e2faa4e330d8c54e28e" // IMPORTANT: Change this to your KV namespace ID
     }
   ],
   "r2_buckets": [
     {
       "binding": "R2",
-      "preview_bucket_name": "sink",
-      "bucket_name": "sink" // IMPORTANT: Change this to your R2 bucket name, or create one with `wrangler r2 bucket create sink`
+      "preview_bucket_name": "go-devarshi-dev-preview",
+      "bucket_name": "go-devarshi-dev" // IMPORTANT: Change this to your R2 bucket name, or create one with `wrangler r2 bucket create sink`
     }
   ],
   "triggers": {
